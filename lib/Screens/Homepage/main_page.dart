@@ -50,7 +50,7 @@ class _MainPage extends State<MainPage> {
                       floating: true,
                       snap: true,
                       elevation: 0,
-                      title: Text('Food Buddy'),
+                      title: Text('Food App'),
                       //centerTitle: true,
                       backgroundColor: kPrimaryColor,
                       foregroundColor: Colors.white,
@@ -66,7 +66,7 @@ class _MainPage extends State<MainPage> {
                                   (route) => false);
                             },
                             icon: Icon(Icons.logout),
-                            label: Text('Çıkış Yap'),
+                            label: Text('Sign Out'),
                             style: TextButton.styleFrom(primary: Colors.white),
                           ),
                         ),

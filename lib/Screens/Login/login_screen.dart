@@ -82,7 +82,7 @@ class _LoginPageState extends State<LoginScreen> {
                           Icons.lock,
                           color: Colors.white,
                         ),
-                        hintText: "Şifre",
+                        hintText: "Password",
                         hintStyle: TextStyle(color: Colors.white),
                         border: InputBorder.none,
                       ),
@@ -99,7 +99,7 @@ class _LoginPageState extends State<LoginScreen> {
                               borderRadius: BorderRadius.circular(29),
                               child: ElevatedButton(
                                 child: Text(
-                                  'GİRİŞ YAP',
+                                  'Sign In',
                                   style: TextStyle(color: Colors.white),
                                 ),
                                 onPressed: () async {
@@ -111,7 +111,7 @@ class _LoginPageState extends State<LoginScreen> {
                                     ScaffoldMessenger.of(context)
                                         .showSnackBar(SnackBar(
                                       content: Text(
-                                          "Lütfen bütün boş alanları doldurunuz!"),
+                                          "Please make sure to fill in all spaces"),
                                       backgroundColor: Colors.grey[600],
                                     ));
                                   } else {
@@ -170,7 +170,7 @@ class _LoginPageState extends State<LoginScreen> {
                             );
                         },
                         child: Text(
-                          "Misafir kullanıcı",
+                          "Guest User",
                           style: const TextStyle(
                             color: kPrimaryColor,
                             fontWeight: FontWeight.bold,

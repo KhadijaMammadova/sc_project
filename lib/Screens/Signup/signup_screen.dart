@@ -58,7 +58,7 @@ class _SignUpScreen extends State<SignUpScreen> {
                           Icons.person,
                           color: Colors.white,
                         ),
-                        hintText: "Kullanıcı Adı",
+                        hintText: "Username",
                         hintStyle: TextStyle(color: Colors.white),
                         border: InputBorder.none,
                       ),
@@ -105,7 +105,7 @@ class _SignUpScreen extends State<SignUpScreen> {
                           Icons.lock,
                           color: Colors.white,
                         ),
-                        hintText: "Şifre",
+                        hintText: "Password",
                         hintStyle: TextStyle(color: Colors.white),
                         border: InputBorder.none,
                       ),
@@ -129,7 +129,7 @@ class _SignUpScreen extends State<SignUpScreen> {
                                   ScaffoldMessenger.of(context)
                                       .showSnackBar(SnackBar(
                                     content: Text(
-                                        "Lütfen bütün boş alanları doldurunuz!"),
+                                        "Please fill in all the empty spaces!"),
                                     backgroundColor: Colors.grey[600],
                                   ));
                                   /*} else if (_passwordController.text !=
@@ -155,7 +155,7 @@ class _SignUpScreen extends State<SignUpScreen> {
                                 });
                               },
                               child: Text(
-                                'KAYDET',
+                                'SAVE',
                                 style: TextStyle(color: Colors.white),
                               ),
                               style: ElevatedButton.styleFrom(
@@ -197,7 +197,7 @@ class _SignUpScreen extends State<SignUpScreen> {
                             );
                         },
                         child: Text(
-                          "Misafir kullanıcı",
+                          "Guest User",
                           style: const TextStyle(
                             color: kPrimaryColor,
                             fontWeight: FontWeight.bold,

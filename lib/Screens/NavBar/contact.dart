@@ -10,7 +10,7 @@ class ContactPage extends StatelessWidget {
     return Scaffold(
       backgroundColor: Color.fromARGB(255, 240, 233, 233),
       appBar: AppBar(
-        title: Text('Food Buddy Canlı Destek'),
+        title: Text('Food App Help Center'),
         backgroundColor: kPrimaryColor,
         elevation: 0,
       ),
@@ -22,7 +22,7 @@ class ContactPage extends StatelessWidget {
               padding: const EdgeInsets.all(15.0),
               child: Center(
                 child: Text(
-                  "Food Buddy ekibi 7/24 sizinle! Food Buddy ekibi olarak kullanıcı deneyimini iyileştirmek için elimizden geleni yapıyoruz ve daima sorularınızı yanıtlamaya hazırız. Aşağıdaki butona tıklayarak bize ulaşıp canlı destek alabilir, uygulamamız hakkında sorularınızı sorabilir veya şikayet ve önerilerinizi aşağıdaki mail adresine iletebilirsiniz.",
+                  "Food App team is trying to help you 24/7",
                   style: Theme.of(context).textTheme.subtitle1,
                 ),
               ),
@@ -31,9 +31,9 @@ class ContactPage extends StatelessWidget {
               // splashColor: Colors.grey,
               // color: kPrimaryColor,
               onPressed: () async => await launch(
-                  "https://wa.me/${905528528098}?text=Merhaba. Food Buddy canlı destek."),
+                  "https://wa.me/${905528528098}?text=Merhaba. Food App Help Center."),
               child: Text(
-                'Canlı Destek',
+                'Help Center',
                 style: TextStyle(color: Colors.white),
               ),
             ),

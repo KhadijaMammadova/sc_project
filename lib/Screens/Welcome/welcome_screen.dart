@@ -20,7 +20,7 @@ class WelcomeScreen extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: <Widget>[
                   Text(
-                    "HOŞ GELDİNİZ",
+                    "WELCOME",
                     style: TextStyle(fontWeight: FontWeight.bold, color: kPrimaryColor),
                   ),
                   //SizedBox(height: size.height * 0.05),
@@ -36,7 +36,7 @@ class WelcomeScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(29),
                         child: ElevatedButton(
                           child: Text(
-                            'GİRİŞ YAP',
+                            'Sign In',
                             style: TextStyle(color: Colors.white),
                           ),
                           onPressed: () {
@@ -64,7 +64,7 @@ class WelcomeScreen extends StatelessWidget {
                         borderRadius: BorderRadius.circular(29),
                         child: ElevatedButton(
                           child: Text(
-                            'KAYIT OL',
+                            'Sign Up',
                             style: TextStyle(color: Colors.white),
                           ),
                           onPressed: () {

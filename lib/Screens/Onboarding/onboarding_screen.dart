@@ -131,7 +131,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                 ),
                               );
                             },
-                            child: Center(child: Text("HEMEN BAŞLA")),
+                            child: Center(child: Text("START")),
                             style: ElevatedButton.styleFrom(
                               primary: Colors.black,
                               shape: new RoundedRectangleBorder(
@@ -157,7 +157,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                   _controller.jumpToPage(2);
                                 },
                                 child: Text(
-                                  "ATLA",
+                                  "SKIP",
                                   style: TextStyle(color: Colors.black),
                                 ),
                                 style: TextButton.styleFrom(
@@ -176,7 +176,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
                                     curve: Curves.easeIn,
                                   );
                                 },
-                                child: Text("İLERİ"),
+                                child: Text("NEXT"),
                                 style: ElevatedButton.styleFrom(
                                   primary: Colors.black,
                                   shape: new RoundedRectangleBorder(

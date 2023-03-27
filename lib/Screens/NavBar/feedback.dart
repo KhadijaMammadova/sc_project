@@ -45,8 +45,8 @@ class _FeedbackPageState extends State<FeedbackPage> {
           border: OutlineInputBorder(),
           contentPadding:
               EdgeInsets.symmetric(vertical: _minValue, horizontal: _minValue),
-          labelText: 'İsim',
-          hintText: 'İsim',
+          labelText: 'Name',
+          hintText: 'Name',
           labelStyle: TextStyle(fontSize: 16.0, color: Colors.black87)),
     );
   }
@@ -60,8 +60,8 @@ class _FeedbackPageState extends State<FeedbackPage> {
           border: OutlineInputBorder(),
           contentPadding:
               EdgeInsets.symmetric(vertical: _minValue, horizontal: _minValue),
-          hintText: 'Soyisim',
-          labelText: 'Soyisim',
+          hintText: 'Surname',
+          labelText: 'Surname',
           labelStyle: TextStyle(fontSize: 16.0, color: Colors.black87)),
     );
   }
@@ -91,8 +91,8 @@ class _FeedbackPageState extends State<FeedbackPage> {
           border: OutlineInputBorder(),
           contentPadding:
               EdgeInsets.symmetric(vertical: _minValue, horizontal: _minValue),
-          labelText: 'Geri Bildirim',
-          hintText: 'Geri Bildirim',
+          labelText: 'Feedback',
+          hintText: 'Feedback',
           labelStyle: TextStyle(fontSize: 16.0, color: Colors.black87)),
     );
   }
@@ -120,7 +120,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
         appBar: AppBar(
           backgroundColor: kPrimaryColor,
           elevation: 0.0,
-          title: Text("Food Buddy Geri Bildirim"),
+          title: Text("Food App Feedback"),
           centerTitle: true,
         ),
         backgroundColor: Color.fromARGB(255, 240, 233, 233),
@@ -131,7 +131,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
               padding: EdgeInsets.symmetric(
                   horizontal: _minValue * 2, vertical: _minValue * 3),
               child: Text(
-                "Food Buddy ekibi olarak fikirlerinizi ve geri bildirimlerinizi önemsiyoruz. Uygulamamızı daha iyi hale getirmek için önerilerinizi bizimle paylaşmanız çok değerli. Aşağıdaki formu doldurarak geribildirim verebilirsiniz.",
+                "Fill in this form in order to help Food App team.",
                 style: Theme.of(context).textTheme.subtitle1,
               ),
             ),
@@ -142,7 +142,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: <Widget>[
-                      Center(child: Text("GERİ BİLDİRİM FORMU", style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: 20),)),
+                      Center(child: Text("FEEDBACK FORM", style: TextStyle(color: kPrimaryColor, fontWeight: FontWeight.bold, fontSize: 20),)),
                       SizedBox(
                         height: _minValue * 3,
                       ),
@@ -170,7 +170,7 @@ class _FeedbackPageState extends State<FeedbackPage> {
                               borderRadius: BorderRadius.circular(29),
                               child: ElevatedButton(
                                 child: Text(
-                                  'GÖNDER',
+                                  'SEND',
                                   style: TextStyle(color: Colors.white),
                                 ),
                                 onPressed: () {
@@ -181,14 +181,14 @@ class _FeedbackPageState extends State<FeedbackPage> {
                                     ScaffoldMessenger.of(context)
                                         .showSnackBar(SnackBar(
                                       content: Text(
-                                          "Geri bildiriminizin eksiksiz bir şekilde ekibimize ulaşması için bütün alanları doldurmanız gerekir."),
+                                          "Your answers are recieved/ Thank you for your help."),
                                       backgroundColor: Color.fromARGB(255, 231, 165, 164),
                                     ));
                                   } else {
                                     ScaffoldMessenger.of(context).showSnackBar(
                                         SnackBar(
                                             content: Text(
-                                                "Tebrikler! Geri bildirminiz başarılı bir şekilde gönderilmiştir. Zaman ayırdığınız için teşekkür ederiz."), backgroundColor: Color.fromARGB(255, 164, 218, 166),));
+                                                "Your answers are recieved/ Thank you for your help."), backgroundColor: Color.fromARGB(255, 164, 218, 166),));
                                   }
                                 },
                                 style: ElevatedButton.styleFrom(

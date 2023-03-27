@@ -32,13 +32,13 @@ class _ProfilePage extends State<ProfilePage> {
                         backgroundColor: Colors.white,
                       ),
                       SizedBox(height: 10.0,),
-                      Text('Kullanıcı İsmi',
+                      Text('Name',
                       style: TextStyle(
                         color:Colors.white,
                         fontSize: 20.0,
                       )),
                       SizedBox(height: 10.0,),
-                      Text('Yaş',
+                      Text('Age',
                       style: TextStyle(
                         color:Colors.white,
                         fontSize: 15.0,
@@ -63,7 +63,7 @@ class _ProfilePage extends State<ProfilePage> {
                             child: Column(
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
-                                Text("Hakkımda",
+                                Text("BIO",
                                 style: TextStyle(
                                   fontSize: 17.0,
                                   fontWeight: FontWeight.w800,
@@ -81,11 +81,11 @@ class _ProfilePage extends State<ProfilePage> {
                                     Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
-                                        Text("Favori Restoranlarım",
+                                        Text("Favourite Restaurants",
                                           style: TextStyle(
                                             fontSize: 15.0,
                                           ),),
-                                        Text("Restoran ismi",
+                                        Text("Restaurant Name",
                                           style: TextStyle(
                                             fontSize: 12.0,
                                             color: Colors.grey[400],
@@ -108,11 +108,11 @@ class _ProfilePage extends State<ProfilePage> {
                                     Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
-                                        Text("Sevdiğim Yemekler",
+                                        Text("Favourite Food",
                                           style: TextStyle(
                                             fontSize: 15.0,
                                           ),),
-                                        Text("Yemek ismi",
+                                        Text("Food Name",
                                           style: TextStyle(
                                             fontSize: 12.0,
                                             color: Colors.grey[400],
@@ -135,11 +135,11 @@ class _ProfilePage extends State<ProfilePage> {
                                     Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
-                                        Text("Hobilerim",
+                                        Text("Hobbies",
                                           style: TextStyle(
                                             fontSize: 15.0,
                                           ),),
-                                        Text("Hobi ismi",
+                                        Text("Hobby Name",
                                           style: TextStyle(
                                             fontSize: 12.0,
                                             color: Colors.grey[400],
@@ -162,7 +162,7 @@ class _ProfilePage extends State<ProfilePage> {
                                     Column(
                                       crossAxisAlignment: CrossAxisAlignment.start,
                                       children: [
-                                        Text("Takipçiler",
+                                        Text("Followers",
                                           style: TextStyle(
                                             fontSize: 15.0,
                                           ),),

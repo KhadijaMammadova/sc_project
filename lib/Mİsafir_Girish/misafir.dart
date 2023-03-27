@@ -48,7 +48,7 @@ class _MisafirPage extends State<MisafirPage> {
                     floating: true,
                     snap: true,
                     elevation: 0,
-                    title: Text('Food Buddy'),
+                    title: Text('Food App'),
                     //centerTitle: true,
                     backgroundColor: kPrimaryColor,
                     foregroundColor: Colors.white,
@@ -64,7 +64,7 @@ class _MisafirPage extends State<MisafirPage> {
                                 (route) => false);
                           },
                           icon: Icon(Icons.logout),
-                          label: Text('Çıkış Yap'),
+                          label: Text('Sign Out'),
                           style: TextButton.styleFrom(primary: Colors.white),
                         ),
                       ),
@@ -119,7 +119,7 @@ class MisafirProfileAndChatPage extends StatelessWidget {
          mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Text(
-          "Bu sayfaya erişebilmek için " ,
+          "Tap to have access to this page " ,
           style: const TextStyle(color: kPrimaryColor),
         ),
         GestureDetector(
@@ -134,7 +134,7 @@ class MisafirProfileAndChatPage extends StatelessWidget {
                             );
                         },
           child: Text(
-            "Hesap Oluşturun",
+            "Sign Up",
             style: const TextStyle(
               color: kPrimaryColor,
               fontWeight: FontWeight.bold,

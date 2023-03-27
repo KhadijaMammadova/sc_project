@@ -36,7 +36,7 @@ class NavBar extends StatelessWidget {
               color: kPrimaryColor,
             ),
             title: Text(
-              'Bize ulaşın/Canlı Destek',
+              'Help Center',
               style: TextStyle(color: kPrimaryColor),
             ),
             onTap: () {
@@ -57,7 +57,7 @@ class NavBar extends StatelessWidget {
               color: kPrimaryColor,
             ),
             title: Text(
-              'Geri bildirim',
+              'Feedback',
               style: TextStyle(color: kPrimaryColor),
             ),
             onTap: () {
@@ -74,7 +74,7 @@ class NavBar extends StatelessWidget {
           Divider(),
           ListTile(
             title: Text(
-              'Kapat',
+              'Close',
               style: TextStyle(color: kPrimaryColor),
             ),
             leading: Icon(

@@ -7,7 +7,7 @@ class SorryPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Food Buddy'),
+        title: Text('Food App'),
         backgroundColor: Color.fromARGB(255, 247, 191, 107),
         elevation: 0,
       ),

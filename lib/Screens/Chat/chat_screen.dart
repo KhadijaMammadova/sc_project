@@ -37,10 +37,10 @@ class _ChatState extends State<Chat> with SingleTickerProviderStateMixin {
                 children: <Widget>[
                   TabBar( controller: _tabController, tabs: <Widget>[
                 Tab(
-                    text: 'mesajlar',
+                    text: 'messages',
                 ),
                 Tab(
-                    text: 'durumlar',
+                    text: 'status',
                 ),
                  Tab(
                       icon: Icon(
@@ -75,7 +75,7 @@ class _ChatState extends State<Chat> with SingleTickerProviderStateMixin {
                 ScaffoldMessenger.of(context)
                                         .showSnackBar(SnackBar(
                                       content: Text(
-                                          "Favorilediğiniz restoranlara gidecek olan kişileri buradan bulup iletişime geçebileceksiniz."),
+                                          "You can message resturant owners from this page"),
                                       backgroundColor: Colors.grey[600],
                                     ));
                 Navigator.push(context,

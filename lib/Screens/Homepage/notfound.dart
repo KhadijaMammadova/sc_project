@@ -35,7 +35,7 @@ class NotFoundPage extends StatelessWidget {
                 },
                 child: Center(
                   child: Text(
-                    "ANA SAYFA".toUpperCase(),
+                    "HOME PAGE".toUpperCase(),
                     style: TextStyle(color: Colors.white),
                   ),
                 ),

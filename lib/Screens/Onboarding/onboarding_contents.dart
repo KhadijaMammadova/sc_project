@@ -12,16 +12,16 @@ List<OnboardingContents> contents = [
   OnboardingContents(
       title: "Do not waste food anymore",
       image: "assets/images/image1.png",
-      desc: "With Food App customers of your restaurant will be accessing to more food",
+      desc: "Customers of your restaurant will be accessing to more food with Food App ",
   ),
   OnboardingContents(
-      title: "____________________________",
+      title: "Have access to cheaoer food after working hours",
       image: "assets/images/image3.png",
-      desc: "With Food App you can get access to cheaper food",
+      desc: "You won't have to prepare meals and spend much money for foodwith Food App",
   ),
   OnboardingContents(
-      title: "_________________________",
+      title: "With food App you will be helping food waste problem",
       image: "assets/images/excited.png",
-      desc: "__________________________",
+      desc: "By buyng food with Food App you will help the world to be a better place",
   ),
 ];
